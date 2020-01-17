@@ -201,3 +201,44 @@ footer nav a {
     border:  1px dashed black;
     margin: 30px 0;
 }
+
+.sh {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: space-between; 
+    
+}
+
+.sh div {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.pc {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.pc div {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
