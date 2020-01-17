@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: black; 
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 30px 0;
+}
+
+.jumbo {
+    margin-bottom: 30px;
+}
+
+.boxes .box:first-of-type {
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+.hr1 {
+    border:  1px dashed black;
+    margin: 30px 0;
+}
+
+.sh {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: space-between; 
+    
+}
+
+.sh div {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.pc {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.pc div {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px 0;
+    margin-bottom: 10px;
 }
