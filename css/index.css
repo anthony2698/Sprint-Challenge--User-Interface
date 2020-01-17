@@ -196,3 +196,8 @@ footer nav a {
 .boxes .box:nth-child(10) {
     background-color: dodgerblue;
 }
+
+.hr1 {
+    border:  1px dashed black;
+    margin: 30px 0;
+}
